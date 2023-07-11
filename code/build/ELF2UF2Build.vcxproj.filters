@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\study\parkinson_pen\code\build\CMakeFiles\b3742f5310fa5301455b38046492b456\ELF2UF2Build-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\study\parkinson_pen\code\build\CMakeFiles\b3742f5310fa5301455b38046492b456\ELF2UF2Build-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\study\parkinson_pen\code\build\CMakeFiles\b3742f5310fa5301455b38046492b456\ELF2UF2Build-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\study\parkinson_pen\code\build\CMakeFiles\b3742f5310fa5301455b38046492b456\ELF2UF2Build-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\study\parkinson_pen\code\build\CMakeFiles\b3742f5310fa5301455b38046492b456\ELF2UF2Build-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\study\parkinson_pen\code\build\CMakeFiles\b3742f5310fa5301455b38046492b456\ELF2UF2Build-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\study\parkinson_pen\code\build\CMakeFiles\b3742f5310fa5301455b38046492b456\ELF2UF2Build-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\study\parkinson_pen\code\build\CMakeFiles\c933f58f24bf3173e61855af082dfdf4\ELF2UF2Build-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\study\parkinson_pen\code\build\CMakeFiles\480d596d4653c747030cf89ad478ea20\ELF2UF2Build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\study\parkinson_pen\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\study\parkinson_pen\code\build\CMakeFiles\ELF2UF2Build" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1B9E1FE2-F402-31B7-A246-F8D92B360390}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

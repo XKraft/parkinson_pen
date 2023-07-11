@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/study/parkinson_pen/pico_sdk/pico-sdk/lib/tinyusb/hw/bsp/family_support.cmake
+D:/study/parkinson_pen/pico_sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/boards/pico_sdk/board.cmake
+D:/study/parkinson_pen/pico_sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.cmake
+D:/study/parkinson_pen/pico_sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/pico_sdk_import.cmake
+D:/study/parkinson_pen/pico_sdk/pico-sdk/pico_sdk_init.cmake
+D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt
