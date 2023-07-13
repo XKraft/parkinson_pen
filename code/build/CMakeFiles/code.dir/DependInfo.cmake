@@ -103,6 +103,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_int64_ops/include"
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_mem_ops/include"
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/boot_stage2/include"
+  "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 
 # The set of dependency files which are needed:
@@ -119,6 +120,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
+  "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" "gcc" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d"
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" "gcc" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
@@ -140,7 +142,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
-  "D:/study/parkinson_pen/code/blink.c" "CMakeFiles/code.dir/blink.c.obj" "gcc" "CMakeFiles/code.dir/blink.c.obj.d"
+  "D:/study/parkinson_pen/code/main.c" "CMakeFiles/code.dir/main.c.obj" "gcc" "CMakeFiles/code.dir/main.c.obj.d"
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

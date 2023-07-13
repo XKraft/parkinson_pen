@@ -476,6 +476,30 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
+D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj
+
+# target to build an object file
+D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+
+D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+
+# target to preprocess a source file
+D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
+
+# target to generate assembly for a file
+D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
@@ -1084,29 +1108,29 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-blink.obj: blink.c.obj
-.PHONY : blink.obj
+main.obj: main.c.obj
+.PHONY : main.obj
 
 # target to build an object file
-blink.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/blink.c.obj
-.PHONY : blink.c.obj
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.c.obj
+.PHONY : main.c.obj
 
-blink.i: blink.c.i
-.PHONY : blink.i
+main.i: main.c.i
+.PHONY : main.i
 
 # target to preprocess a source file
-blink.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/blink.c.i
-.PHONY : blink.c.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.c.i
+.PHONY : main.c.i
 
-blink.s: blink.c.s
-.PHONY : blink.s
+main.s: main.c.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-blink.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/blink.c.s
-.PHONY : blink.c.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -1158,6 +1182,9 @@ help:
 	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj
+	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
 	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.i
 	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.s
@@ -1234,9 +1261,9 @@ help:
 	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
-	@echo ... blink.obj
-	@echo ... blink.i
-	@echo ... blink.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

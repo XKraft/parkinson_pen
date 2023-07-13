@@ -68,19 +68,19 @@ include CMakeFiles/code.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/code.dir/flags.make
 
-CMakeFiles/code.dir/blink.c.obj: CMakeFiles/code.dir/flags.make
-CMakeFiles/code.dir/blink.c.obj: D:/study/parkinson_pen/code/blink.c
-CMakeFiles/code.dir/blink.c.obj: CMakeFiles/code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\study\parkinson_pen\code\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/code.dir/blink.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/code.dir/blink.c.obj -MF CMakeFiles\code.dir\blink.c.obj.d -o CMakeFiles\code.dir\blink.c.obj -c D:\study\parkinson_pen\code\blink.c
+CMakeFiles/code.dir/main.c.obj: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/main.c.obj: D:/study/parkinson_pen/code/main.c
+CMakeFiles/code.dir/main.c.obj: CMakeFiles/code.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\study\parkinson_pen\code\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/code.dir/main.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/code.dir/main.c.obj -MF CMakeFiles\code.dir\main.c.obj.d -o CMakeFiles\code.dir\main.c.obj -c D:\study\parkinson_pen\code\main.c
 
-CMakeFiles/code.dir/blink.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/code.dir/blink.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\study\parkinson_pen\code\blink.c > CMakeFiles\code.dir\blink.c.i
+CMakeFiles/code.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/code.dir/main.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\study\parkinson_pen\code\main.c > CMakeFiles\code.dir\main.c.i
 
-CMakeFiles/code.dir/blink.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/code.dir/blink.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\study\parkinson_pen\code\blink.c -o CMakeFiles\code.dir\blink.c.s
+CMakeFiles/code.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/code.dir/main.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\study\parkinson_pen\code\main.c -o CMakeFiles\code.dir\main.c.s
 
 CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -701,9 +701,23 @@ CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\study\parkinson_pen\pico_sdk\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c -o CMakeFiles\code.dir\D_\study\parkinson_pen\pico_sdk\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
 
+CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/code.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\study\parkinson_pen\code\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles\code.dir\D_\study\parkinson_pen\pico_sdk\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj.d -o CMakeFiles\code.dir\D_\study\parkinson_pen\pico_sdk\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj -c D:\study\parkinson_pen\pico_sdk\pico-sdk\src\rp2_common\hardware_i2c\i2c.c
+
+CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\study\parkinson_pen\pico_sdk\pico-sdk\src\rp2_common\hardware_i2c\i2c.c > CMakeFiles\code.dir\D_\study\parkinson_pen\pico_sdk\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.i
+
+CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\study\parkinson_pen\pico_sdk\pico-sdk\src\rp2_common\hardware_i2c\i2c.c -o CMakeFiles\code.dir\D_\study\parkinson_pen\pico_sdk\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
+
 # Object files for target code
 code_OBJECTS = \
-"CMakeFiles/code.dir/blink.c.obj" \
+"CMakeFiles/code.dir/main.c.obj" \
 "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -748,12 +762,13 @@ code_OBJECTS = \
 "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+"CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 
 # External object files for target code
 code_EXTERNAL_OBJECTS =
 
-code.elf: CMakeFiles/code.dir/blink.c.obj
+code.elf: CMakeFiles/code.dir/main.c.obj
 code.elf: CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 code.elf: CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 code.elf: CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -799,11 +814,12 @@ code.elf: CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_c
 code.elf: CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 code.elf: CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 code.elf: CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+code.elf: CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 code.elf: CMakeFiles/code.dir/build.make
 code.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 code.elf: CMakeFiles/code.dir/objects1.rsp
 code.elf: CMakeFiles/code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\study\parkinson_pen\code\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable code.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\study\parkinson_pen\code\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable code.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\code.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Oihex D:/study/parkinson_pen/code/build/code.elf code.hex
 	"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary D:/study/parkinson_pen/code/build/code.elf code.bin
