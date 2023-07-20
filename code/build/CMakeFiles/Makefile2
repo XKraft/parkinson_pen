@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = D:\study\parkinson_pen\code\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/code.dir/all
+all: CMakeFiles/parkinson_pen_project.dir/all
 all: CMakeFiles/ELF2UF2Build.dir/all
 all: pico-sdk/all
 .PHONY : all
@@ -72,7 +72,7 @@ preinstall: pico-sdk/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/code.dir/clean
+clean: CMakeFiles/parkinson_pen_project.dir/clean
 clean: CMakeFiles/ELF2UF2Build.dir/clean
 clean: pico-sdk/clean
 .PHONY : clean
@@ -1481,31 +1481,31 @@ pico-sdk/tools/clean:
 .PHONY : pico-sdk/tools/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/code.dir
+# Target rules for target CMakeFiles/parkinson_pen_project.dir
 
 # All Build rule for target.
-CMakeFiles/code.dir/all: CMakeFiles/ELF2UF2Build.dir/all
-CMakeFiles/code.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\study\parkinson_pen\code\build\CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61 "Built target code"
-.PHONY : CMakeFiles/code.dir/all
+CMakeFiles/parkinson_pen_project.dir/all: CMakeFiles/ELF2UF2Build.dir/all
+CMakeFiles/parkinson_pen_project.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\study\parkinson_pen\code\build\CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64 "Built target parkinson_pen_project"
+.PHONY : CMakeFiles/parkinson_pen_project.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/code.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\study\parkinson_pen\code\build\CMakeFiles 60
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/code.dir/all
+CMakeFiles/parkinson_pen_project.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\study\parkinson_pen\code\build\CMakeFiles 63
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/parkinson_pen_project.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\study\parkinson_pen\code\build\CMakeFiles 0
-.PHONY : CMakeFiles/code.dir/rule
+.PHONY : CMakeFiles/parkinson_pen_project.dir/rule
 
 # Convenience name for target.
-code: CMakeFiles/code.dir/rule
-.PHONY : code
+parkinson_pen_project: CMakeFiles/parkinson_pen_project.dir/rule
+.PHONY : parkinson_pen_project
 
 # clean rule for target.
-CMakeFiles/code.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/clean
-.PHONY : CMakeFiles/code.dir/clean
+CMakeFiles/parkinson_pen_project.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/clean
+.PHONY : CMakeFiles/parkinson_pen_project.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ELF2UF2Build.dir

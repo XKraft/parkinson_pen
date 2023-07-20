@@ -1551,51 +1551,8 @@ CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
 
 CMakeFiles/code.dir/main.c.obj: D:/study/parkinson_pen/code/main.c \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/boards/include/boards/pico.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_base/include/pico.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_base/include/pico/assert.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_base/include/pico/config.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_base/include/pico/error.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_base/include/pico/types.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/include/pico/time.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/assert.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_endian.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
@@ -1603,11 +1560,9 @@ CMakeFiles/code.dir/main.c.obj: D:/study/parkinson_pen/code/main.c \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/types.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdio.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h \
@@ -1627,9 +1582,8 @@ CMakeFiles/code.dir/main.c.obj: D:/study/parkinson_pen/code/main.c \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/types.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+  D:/study/parkinson_pen/code/I2C/mpu6050_i2c.h
 
 
 generated/pico_base/pico/version.h:
@@ -1997,3 +1951,5 @@ D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_ua
 D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h:
 
 D:/study/parkinson_pen/code/main.c:
+
+D:/study/parkinson_pen/code/I2C/mpu6050_i2c.h:

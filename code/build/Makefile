@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named code
+# Target rules for targets named parkinson_pen_project
 
 # Build rule for target.
-code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 code
-.PHONY : code
+parkinson_pen_project: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 parkinson_pen_project
+.PHONY : parkinson_pen_project
 
 # fast build rule for target.
-code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/build
-.PHONY : code/fast
+parkinson_pen_project/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/build
+.PHONY : parkinson_pen_project/fast
 
 #=============================================================================
 # Target rules for targets named ELF2UF2Build
@@ -185,7 +185,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.o
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -193,7 +193,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.i
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -201,7 +201,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.s
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -209,7 +209,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.obj: D_/
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -217,7 +217,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.i: D_/st
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -225,7 +225,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.s: D_/st
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -233,7 +233,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.obj: D_/stud
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -241,7 +241,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.i: D_/study/
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -249,7 +249,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.s: D_/study/
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/mutex.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -257,7 +257,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.obj: D_/study/
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.i
@@ -265,7 +265,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.i: D_/study/pa
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.s
@@ -273,7 +273,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.s: D_/study/pa
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/sem.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.obj
@@ -281,7 +281,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.obj: D_/study
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.i
@@ -289,7 +289,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.i: D_/study/p
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.s
@@ -297,7 +297,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.s: D_/study/p
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/time.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -305,7 +305,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.obj
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -313,7 +313,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.i: 
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -321,7 +321,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.s: 
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -329,7 +329,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.obj: D_/s
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.i
@@ -337,7 +337,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.i: D_/stu
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.s
@@ -345,7 +345,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.s: D_/stu
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/datetime.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -353,7 +353,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.obj: D_/stud
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.i
@@ -361,7 +361,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.i: D_/study/
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.s
@@ -369,7 +369,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.s: D_/study/
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/pheap.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.obj
@@ -377,7 +377,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.obj: D_/stud
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.i
@@ -385,7 +385,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.i: D_/study/
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.s
@@ -393,7 +393,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.s: D_/study/
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_util/queue.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -401,7 +401,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -409,7 +409,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.i: 
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -417,7 +417,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.s: 
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -425,7 +425,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.o
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -433,7 +433,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -441,7 +441,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_divider/divider.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -449,7 +449,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_divider/divider
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -457,7 +457,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: 
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -465,7 +465,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: D_
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -473,7 +473,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: D_
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
@@ -481,7 +481,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: D_
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
@@ -489,7 +489,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: D_/s
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
@@ -497,7 +497,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: D_/s
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -505,7 +505,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.obj: D_
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -513,7 +513,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.i: D_/s
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -521,7 +521,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.s: D_/s
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -529,7 +529,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -537,7 +537,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.obj: D_
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -545,7 +545,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.i: D_/s
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -553,7 +553,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.s: D_/s
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -561,7 +561,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.obj: 
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -569,7 +569,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.i: D_
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -577,7 +577,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.s: D_
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -585,7 +585,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -593,7 +593,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.i: 
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -601,7 +601,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.s: 
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -609,7 +609,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.obj: 
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -617,7 +617,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.i: D_
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -625,7 +625,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.s: D_
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -633,7 +633,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: 
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -641,7 +641,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: D_
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -649,7 +649,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: D_
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -657,7 +657,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchd
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -665,7 +665,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchd
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -673,7 +673,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchd
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -681,7 +681,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: 
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -689,7 +689,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: D_
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -697,7 +697,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: D_
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -705,7 +705,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aea
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -713,7 +713,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -721,7 +721,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: 
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -729,7 +729,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: 
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_divider/divider.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -737,7 +737,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_divider/divider.obj
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -745,7 +745,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -753,7 +753,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -761,7 +761,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -769,7 +769,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -777,7 +777,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -785,7 +785,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -793,7 +793,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -801,7 +801,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_v1_ro
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -809,7 +809,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi.o
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -817,7 +817,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_ro
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -825,7 +825,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_ro
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -833,7 +833,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_ro
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -841,7 +841,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.ob
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -849,7 +849,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.i:
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -857,7 +857,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.s:
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -865,7 +865,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -873,7 +873,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int6
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -881,7 +881,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -889,7 +889,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -897,7 +897,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -905,7 +905,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aea
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -913,7 +913,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.o
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -921,7 +921,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.i
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -929,7 +929,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.s
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -937,7 +937,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.obj: 
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -945,7 +945,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.i: D_
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -953,7 +953,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.s: D_
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -961,7 +961,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -969,7 +969,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.i: 
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -977,7 +977,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.s: 
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -985,7 +985,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binar
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -993,7 +993,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binar
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1001,7 +1001,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binar
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1009,7 +1009,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/crt0.
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1017,7 +1017,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_d
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1025,7 +1025,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_d
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1033,7 +1033,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_d
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1041,7 +1041,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: D_
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1049,7 +1049,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.i: D_/s
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1057,7 +1057,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.s: D_/s
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1065,7 +1065,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_ua
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1073,7 +1073,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_ua
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1081,7 +1081,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_ua
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1089,7 +1089,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: 
 
 # target to build an object file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1097,7 +1097,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: D_
 
 # target to preprocess a source file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1105,7 +1105,7 @@ D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: D_
 
 # target to generate assembly for a file
 D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 main.obj: main.c.obj
@@ -1113,7 +1113,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -1121,7 +1121,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -1129,8 +1129,80 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\code.dir\build.make CMakeFiles/code.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/main.c.s
 .PHONY : main.c.s
+
+src/inv_mpu.obj: src/inv_mpu.c.obj
+.PHONY : src/inv_mpu.obj
+
+# target to build an object file
+src/inv_mpu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/inv_mpu.c.obj
+.PHONY : src/inv_mpu.c.obj
+
+src/inv_mpu.i: src/inv_mpu.c.i
+.PHONY : src/inv_mpu.i
+
+# target to preprocess a source file
+src/inv_mpu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/inv_mpu.c.i
+.PHONY : src/inv_mpu.c.i
+
+src/inv_mpu.s: src/inv_mpu.c.s
+.PHONY : src/inv_mpu.s
+
+# target to generate assembly for a file
+src/inv_mpu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/inv_mpu.c.s
+.PHONY : src/inv_mpu.c.s
+
+src/inv_mpu_dmp_motion_driver.obj: src/inv_mpu_dmp_motion_driver.c.obj
+.PHONY : src/inv_mpu_dmp_motion_driver.obj
+
+# target to build an object file
+src/inv_mpu_dmp_motion_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/inv_mpu_dmp_motion_driver.c.obj
+.PHONY : src/inv_mpu_dmp_motion_driver.c.obj
+
+src/inv_mpu_dmp_motion_driver.i: src/inv_mpu_dmp_motion_driver.c.i
+.PHONY : src/inv_mpu_dmp_motion_driver.i
+
+# target to preprocess a source file
+src/inv_mpu_dmp_motion_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/inv_mpu_dmp_motion_driver.c.i
+.PHONY : src/inv_mpu_dmp_motion_driver.c.i
+
+src/inv_mpu_dmp_motion_driver.s: src/inv_mpu_dmp_motion_driver.c.s
+.PHONY : src/inv_mpu_dmp_motion_driver.s
+
+# target to generate assembly for a file
+src/inv_mpu_dmp_motion_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/inv_mpu_dmp_motion_driver.c.s
+.PHONY : src/inv_mpu_dmp_motion_driver.c.s
+
+src/mpu6050_i2c.obj: src/mpu6050_i2c.c.obj
+.PHONY : src/mpu6050_i2c.obj
+
+# target to build an object file
+src/mpu6050_i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/mpu6050_i2c.c.obj
+.PHONY : src/mpu6050_i2c.c.obj
+
+src/mpu6050_i2c.i: src/mpu6050_i2c.c.i
+.PHONY : src/mpu6050_i2c.i
+
+# target to preprocess a source file
+src/mpu6050_i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/mpu6050_i2c.c.i
+.PHONY : src/mpu6050_i2c.c.i
+
+src/mpu6050_i2c.s: src/mpu6050_i2c.c.s
+.PHONY : src/mpu6050_i2c.s
+
+# target to generate assembly for a file
+src/mpu6050_i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/mpu6050_i2c.c.s
+.PHONY : src/mpu6050_i2c.c.s
 
 # Help Target
 help:
@@ -1144,7 +1216,7 @@ help:
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... bs2_default
-	@echo ... code
+	@echo ... parkinson_pen_project
 	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.obj
 	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.i
 	@echo ... D_/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_sync/critical_section.s
@@ -1264,6 +1336,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/inv_mpu.obj
+	@echo ... src/inv_mpu.i
+	@echo ... src/inv_mpu.s
+	@echo ... src/inv_mpu_dmp_motion_driver.obj
+	@echo ... src/inv_mpu_dmp_motion_driver.i
+	@echo ... src/inv_mpu_dmp_motion_driver.s
+	@echo ... src/mpu6050_i2c.obj
+	@echo ... src/mpu6050_i2c.i
+	@echo ... src/mpu6050_i2c.s
 .PHONY : help
 
 

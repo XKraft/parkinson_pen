@@ -32,6 +32,7 @@ CMakeFiles/code.dir/main.c.obj: D:\study\parkinson_pen\code\main.c \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_locale.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\strings.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\string.h \
+ d:\study\parkinson_pen\code\i2c\mpu6050_i2c.h \
  D:\study\parkinson_pen\pico_sdk\pico-sdk\src\common\pico_stdlib\include/pico/stdlib.h \
  D:\study\parkinson_pen\pico_sdk\pico-sdk\src\common\pico_base\include/pico.h \
  D:\study\parkinson_pen\pico_sdk\pico-sdk\src\common\pico_base\include/pico/types.h \

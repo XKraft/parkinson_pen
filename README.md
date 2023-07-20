@@ -57,3 +57,9 @@ IDE：VS Code
 ![image-20230711194328476](https://xkraft-blog-1211-1314103412.cos.ap-nanjing.myqcloud.com/img/image-20230711194328476.png)
 
 在build文件夹中得到的.uf2文件就是我们需要的目标文件，将其复制到树莓派pico中，树莓派就会自动加载并运行，此时树莓派会自动弹出(因为它已经不作为U盘了)，如果需要重新更换.uf2文件，按住树莓派pico上的BOOLSEL按键再重新连接到电脑，就能恢复成U盘模式。
+
+## code工程文件夹进一步说明
+
+主程序写在main.c中，src存放其他源文件，inc存放相应头文件，添加并使用新的源文件时，除了代码里include外，还需要在CMakeList.txt中添加相应的源文件,不然编译link时找不到源文件
+
+![image-20230720180555606](https://xkraft-blog-1211-1314103412.cos.ap-nanjing.myqcloud.com/img/image-20230720180555606.png)

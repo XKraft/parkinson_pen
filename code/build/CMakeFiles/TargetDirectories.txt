@@ -1,4 +1,4 @@
-D:/study/parkinson_pen/code/build/CMakeFiles/code.dir
+D:/study/parkinson_pen/code/build/CMakeFiles/parkinson_pen_project.dir
 D:/study/parkinson_pen/code/build/CMakeFiles/ELF2UF2Build.dir
 D:/study/parkinson_pen/code/build/CMakeFiles/edit_cache.dir
 D:/study/parkinson_pen/code/build/CMakeFiles/rebuild_cache.dir
