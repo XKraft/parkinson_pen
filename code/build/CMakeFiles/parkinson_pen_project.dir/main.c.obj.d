@@ -85,4 +85,5 @@ CMakeFiles/parkinson_pen_project.dir/main.c.obj: \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\stdlib.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\stdlib.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\alloca.h \
- D:\study\parkinson_pen\code\inc/inv_mpu.h
+ D:\study\parkinson_pen\code\inc/inv_mpu.h \
+ D:\study\parkinson_pen\code\inc/MyUart.h

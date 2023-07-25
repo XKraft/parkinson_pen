@@ -1,0 +1,5 @@
+D:/study/parkinson_pen/Qt/build-Test_for_parkensonpen-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/Test_for_parkensonpen.dir
+D:/study/parkinson_pen/Qt/build-Test_for_parkensonpen-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/study/parkinson_pen/Qt/build-Test_for_parkensonpen-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/study/parkinson_pen/Qt/build-Test_for_parkensonpen-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/Test_for_parkensonpen_autogen_timestamp_deps.dir
+D:/study/parkinson_pen/Qt/build-Test_for_parkensonpen-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/Test_for_parkensonpen_autogen.dir

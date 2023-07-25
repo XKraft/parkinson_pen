@@ -1132,6 +1132,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/main.c.s
 .PHONY : main.c.s
 
+src/MyUart.obj: src/MyUart.c.obj
+.PHONY : src/MyUart.obj
+
+# target to build an object file
+src/MyUart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/MyUart.c.obj
+.PHONY : src/MyUart.c.obj
+
+src/MyUart.i: src/MyUart.c.i
+.PHONY : src/MyUart.i
+
+# target to preprocess a source file
+src/MyUart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/MyUart.c.i
+.PHONY : src/MyUart.c.i
+
+src/MyUart.s: src/MyUart.c.s
+.PHONY : src/MyUart.s
+
+# target to generate assembly for a file
+src/MyUart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/MyUart.c.s
+.PHONY : src/MyUart.c.s
+
 src/inv_mpu.obj: src/inv_mpu.c.obj
 .PHONY : src/inv_mpu.obj
 
@@ -1336,6 +1360,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/MyUart.obj
+	@echo ... src/MyUart.i
+	@echo ... src/MyUart.s
 	@echo ... src/inv_mpu.obj
 	@echo ... src/inv_mpu.i
 	@echo ... src/inv_mpu.s

@@ -82,6 +82,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "CMakeFiles/parkinson_pen_project.dir/main.c.obj"
   "CMakeFiles/parkinson_pen_project.dir/main.c.obj.d"
+  "CMakeFiles/parkinson_pen_project.dir/src/MyUart.c.obj"
+  "CMakeFiles/parkinson_pen_project.dir/src/MyUart.c.obj.d"
   "CMakeFiles/parkinson_pen_project.dir/src/inv_mpu.c.obj"
   "CMakeFiles/parkinson_pen_project.dir/src/inv_mpu.c.obj.d"
   "CMakeFiles/parkinson_pen_project.dir/src/inv_mpu_dmp_motion_driver.c.obj"
