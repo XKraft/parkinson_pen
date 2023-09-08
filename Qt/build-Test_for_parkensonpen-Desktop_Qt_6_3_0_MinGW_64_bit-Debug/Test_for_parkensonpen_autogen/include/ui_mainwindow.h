@@ -32,6 +32,7 @@ public:
     QAction *action_start;
     QAction *action_stop;
     QAction *action_save;
+    QAction *action_continue;
     QWidget *centralwidget;
     QVBoxLayout *verticalLayout_3;
     QVBoxLayout *verticalLayout_2;
@@ -65,6 +66,8 @@ public:
         action_stop->setObjectName(QString::fromUtf8("action_stop"));
         action_save = new QAction(MainWindow);
         action_save->setObjectName(QString::fromUtf8("action_save"));
+        action_continue = new QAction(MainWindow);
+        action_continue->setObjectName(QString::fromUtf8("action_continue"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayout_3 = new QVBoxLayout(centralwidget);
@@ -172,6 +175,7 @@ public:
         menu->addAction(action_start);
         menu->addAction(action_stop);
         menu->addAction(action_save);
+        menu->addAction(action_continue);
 
         retranslateUi(MainWindow);
 
@@ -187,6 +191,7 @@ public:
         action_stop->setToolTip(QCoreApplication::translate("MainWindow", "\346\232\202\345\201\234", nullptr));
 #endif // QT_CONFIG(tooltip)
         action_save->setText(QCoreApplication::translate("MainWindow", "\344\277\235\345\255\230\346\225\260\346\215\256", nullptr));
+        action_continue->setText(QCoreApplication::translate("MainWindow", "\347\273\247\347\273\255", nullptr));
         label_pitch->setText(QCoreApplication::translate("MainWindow", "Pitch:", nullptr));
         label_roll->setText(QCoreApplication::translate("MainWindow", "Roll:", nullptr));
         label_yaw->setText(QCoreApplication::translate("MainWindow", "Yaw:", nullptr));

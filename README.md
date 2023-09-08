@@ -8,6 +8,10 @@ pico_sdk文件夹：存放pico官方提供的sdk和examples，不需要改动
 
 raspberry-pi-pico-c-sdk.pdf：sdk的说明书
 
+Qt: Qt工程文件夹，其中的savedata文件夹存储保存的数据
+
+data_analysis：数据分析处理相关数据集、脚本、结果存放于此
+
 ### 2.项目开发说明：
 
 操作系统：win10

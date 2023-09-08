@@ -617,6 +617,6 @@ D:/study/parkinson_pen/Qt/Test_for_parkensonpen/mainwindow.h
  mdp:D:/app/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wtypesbase.h
  mdp:D:/study/parkinson_pen/Qt/Test_for_parkensonpen/Serial.h
 D:/study/parkinson_pen/Qt/Test_for_parkensonpen/Serial.cpp
+D:/study/parkinson_pen/Qt/Test_for_parkensonpen/main.cpp
 D:/study/parkinson_pen/Qt/Test_for_parkensonpen/mainwindow.cpp
  uic:./ui_mainwindow.h
-D:/study/parkinson_pen/Qt/Test_for_parkensonpen/main.cpp

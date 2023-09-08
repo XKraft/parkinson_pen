@@ -24,6 +24,8 @@ public:
 private slots:
     void on_action_start_triggered();
     void on_action_stop_triggered();
+    void on_action_continue_triggered();
+    void on_action_save_triggered();
 
 private:
     void UpdateSeriesDate();

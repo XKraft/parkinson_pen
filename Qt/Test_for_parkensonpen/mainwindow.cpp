@@ -1,5 +1,10 @@
 #include "mainwindow.h"
+#include <fstream>
+#include <ctime>
 #include "./ui_mainwindow.h"
+
+#define DRAW_INTERVAL 30 //绘图两点间的时间间隔，单位ms
+#define DRAW_MAX_DATALEN 1000 //绘图最大点的个数
 
 const char* seriesname[3] = {"pitch", "roll", "yaw"};
 Qt::GlobalColor color[3] = {Qt::red, Qt::blue, Qt::green};
@@ -20,7 +25,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     axisX = new QValueAxis;
     axisY = new QValueAxis;
-    axisX->setRange(0, 30);
+    axisX->setRange(0, DRAW_INTERVAL * DRAW_MAX_DATALEN / 1000.0);
     axisX->setLabelFormat(("%.2f"));
     axisX->setTitleText("时间/s");
     axisX->setGridLineVisible(false);
@@ -77,15 +82,15 @@ void MainWindow::UpdateSeriesDate()
         s->setVisible(true);
         if(s->isVisible())
         {
-            if(s->count() < 1000)
+            if(s->count() < DRAW_MAX_DATALEN)
             {
-                s->append(QPointF(count * 0.03, AttitudeData[i]));
+                s->append(QPointF(count * (DRAW_INTERVAL / 1000.0), AttitudeData[i]));
             }
             else
             {
-                axisX->setRange((count - 1000) * 0.03, count * 0.03);
+                axisX->setRange((count - DRAW_MAX_DATALEN) * (DRAW_INTERVAL / 1000.0), count * (DRAW_INTERVAL / 1000.0));
                 QList<QPointF> v = s->points();
-                v.append(QPointF(count * 0.03, AttitudeData[i]));
+                v.append(QPointF(count * (DRAW_INTERVAL / 1000.0), AttitudeData[i]));
                 v.pop_front();
                 s->replace(v);
             }
@@ -98,22 +103,70 @@ void MainWindow::UpdateSeriesDate()
 
 void MainWindow::on_action_start_triggered()
 {
+    if(timer1 != nullptr)
+    {
+        delete timer1;
+        timer1 = nullptr;
+    }
+    count = 0;
+    axisX->setRange(0, DRAW_INTERVAL * DRAW_MAX_DATALEN / 1000.0);
     timer1 = new QTimer(this);
     std::cout << "start draw graph..." << std::endl;
     //清空数据
     foreach(QSplineSeries* s, series)
         {
+
             QVector<QPointF> v;
             s->replace(v);
         }
     MainWindow::connect(timer1, &QTimer::timeout, this, [=](){
         UpdateSeriesDate();
     });
-    timer1->start(30);
+    timer1->start(DRAW_INTERVAL);
 }
 
 void MainWindow::on_action_stop_triggered()
 {
-    std::cout << "stop draw graph..." << std::endl;
-    timer1->stop();
+    if(timer1)
+    {
+        std::cout << "stop draw graph..." << std::endl;
+        timer1->stop();
+}
+}
+
+void MainWindow::on_action_continue_triggered()
+{
+    if(timer1)
+    {
+        std::cout << "continue draw graph..." << std::endl;
+        timer1->start();
+    }
+}
+
+void MainWindow::on_action_save_triggered()
+{
+    //获取当前时间
+    time_t t = time(nullptr);
+    struct tm* now = localtime(&t);
+    now->tm_year += 1900;
+    now->tm_mon += 1;
+    std::string now_time = std::to_string(now->tm_year) + "_" + std::to_string(now->tm_mon) + "_" + std::to_string(now->tm_mday) + "_" + std::to_string(now->tm_hour) + "_" + std::to_string(now->tm_min) + "_" + std::to_string(now->tm_sec);
+
+    //修改到自己想要保存的路径
+    std::ofstream outfile("D:\\study\\parkinson_pen\\Qt\\Test_for_parkensonpen\\savedata\\" + now_time + ".txt", std::ios::app);
+    if(!outfile.is_open())
+    {
+        std::cout << "unable open the file..." << std::endl;
+    }
+    int i = 0;
+    foreach(QSplineSeries* s, series)
+    {
+        QList<QPointF> v = s->points();
+        std::for_each(v.begin(), v.end(), [&](QPointF p){
+            outfile << i << " " << p.x() << " " << p.y() << std::endl;
+        });
+        i++;
+    }
+    outfile.close();
+    std::cout << "savedata..." << std::endl;
 }
