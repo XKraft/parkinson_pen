@@ -84,6 +84,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/parkinson_pen_project.dir/main.c.obj.d"
   "CMakeFiles/parkinson_pen_project.dir/src/MyUart.c.obj"
   "CMakeFiles/parkinson_pen_project.dir/src/MyUart.c.obj.d"
+  "CMakeFiles/parkinson_pen_project.dir/src/atk_ms901m.c.obj"
+  "CMakeFiles/parkinson_pen_project.dir/src/atk_ms901m.c.obj.d"
   "CMakeFiles/parkinson_pen_project.dir/src/inv_mpu.c.obj"
   "CMakeFiles/parkinson_pen_project.dir/src/inv_mpu.c.obj.d"
   "CMakeFiles/parkinson_pen_project.dir/src/inv_mpu_dmp_motion_driver.c.obj"

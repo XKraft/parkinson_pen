@@ -4,3 +4,4 @@
 
 void Uart_Init();
 void Send_Attitude_Date(float pitch, float roll, float yaw);
+bool MPU9050_GET_DATA(float* pitch, float* roll, float* yaw);

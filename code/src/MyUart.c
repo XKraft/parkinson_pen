@@ -1,10 +1,14 @@
 #include "MyUart.h"
+#include "atk_ms901m.h"
 
-#define UART_ID uart0
+#define UART1_ID uart0
+#define UART2_ID uart1
 #define BAUD_RATE 115200
 
-#define UART_TX_PIN 0
-#define UART_RX_PIN 1
+#define UART_TX_PIN_0 0
+#define UART_RX_PIN_1 1
+#define UART_TX_PIN_4 4
+#define UART_RX_PIN_5 5
 
 #define BUF_MAXLEN 20
 uint8_t szbuf[BUF_MAXLEN];
@@ -12,11 +16,17 @@ uint8_t szbuf[BUF_MAXLEN];
 //初始化串口
 void Uart_Init()
 {
-    uart_init(UART_ID, BAUD_RATE);
-    gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
-    gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
+    uart_init(UART1_ID, BAUD_RATE);
+    gpio_set_function(UART_TX_PIN_0, GPIO_FUNC_UART);
+    gpio_set_function(UART_RX_PIN_1, GPIO_FUNC_UART);
 
-    uart_set_fifo_enabled(UART_ID, true);
+    uart_set_fifo_enabled(UART1_ID, true);
+
+    uart_init(UART2_ID, BAUD_RATE);
+    gpio_set_function(UART_TX_PIN_4, GPIO_FUNC_UART);
+    gpio_set_function(UART_RX_PIN_5, GPIO_FUNC_UART);
+
+    uart_set_fifo_enabled(UART2_ID, true);
 }
 
 //串口发送函数
@@ -24,7 +34,7 @@ void Uart_Init()
 // buflen：发送缓冲区长度
 void Uart_Attitude_Data_Send()
 {
-    uart_write_blocking(UART_ID, szbuf, 15);
+    uart_write_blocking(UART1_ID, szbuf, 15);
 }
 
 //将姿态角数据打包
@@ -61,4 +71,22 @@ void Attitude_Data_Pack(float pitch, float roll, float yaw)
 void Send_Attitude_Date(float pitch, float roll, float yaw)
 {
     printf("S%fA%fB%f\n", pitch, roll, yaw);
+}
+
+bool MPU9050_GET_DATA(float* pitch, float* roll, float* yaw)
+{
+    imu_data = uart_getc(UART2_ID);
+    // uart_putc(UART1_ID, imu_data);
+    data_phase();
+    if(UART2_Process_Flag == Process_run)
+    {
+        if(ProcessIMU_FrameBuf())
+        {
+            *pitch = Attitude.pitch;
+            *roll = Attitude.roll;
+            *yaw = Attitude.yaw;
+            return true;
+        }
+    }
+    return false;
 }

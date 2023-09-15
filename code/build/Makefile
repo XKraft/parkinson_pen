@@ -1156,6 +1156,30 @@ src/MyUart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/MyUart.c.s
 .PHONY : src/MyUart.c.s
 
+src/atk_ms901m.obj: src/atk_ms901m.c.obj
+.PHONY : src/atk_ms901m.obj
+
+# target to build an object file
+src/atk_ms901m.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/atk_ms901m.c.obj
+.PHONY : src/atk_ms901m.c.obj
+
+src/atk_ms901m.i: src/atk_ms901m.c.i
+.PHONY : src/atk_ms901m.i
+
+# target to preprocess a source file
+src/atk_ms901m.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/atk_ms901m.c.i
+.PHONY : src/atk_ms901m.c.i
+
+src/atk_ms901m.s: src/atk_ms901m.c.s
+.PHONY : src/atk_ms901m.s
+
+# target to generate assembly for a file
+src/atk_ms901m.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/atk_ms901m.c.s
+.PHONY : src/atk_ms901m.c.s
+
 src/inv_mpu.obj: src/inv_mpu.c.obj
 .PHONY : src/inv_mpu.obj
 
@@ -1363,6 +1387,9 @@ help:
 	@echo ... src/MyUart.obj
 	@echo ... src/MyUart.i
 	@echo ... src/MyUart.s
+	@echo ... src/atk_ms901m.obj
+	@echo ... src/atk_ms901m.i
+	@echo ... src/atk_ms901m.s
 	@echo ... src/inv_mpu.obj
 	@echo ... src/inv_mpu.i
 	@echo ... src/inv_mpu.s

@@ -10,16 +10,16 @@ int main() {
     //初始化串口
     Uart_Init();
 
-    while(MPU6050_DMP_Init());
+    // while(MPU6050_DMP_Init());
 
     float pitch, yaw, roll;
 
     while (1) {
         
-        MPU6050_DMP_Get_Data(&pitch, &roll, &yaw);
+        // MPU6050_DMP_Get_Data(&pitch, &roll, &yaw);
         // printf("pitch:%f, roll:%f, yaw:%f\n", pitch, roll, yaw);
-
-        Send_Attitude_Date(pitch, roll, yaw);
-        sleep_ms(10);
+        if(MPU9050_GET_DATA(&pitch, &roll, &yaw))
+            Send_Attitude_Date(pitch, roll, yaw);
+        // sleep_ms(10);
     }
 }
