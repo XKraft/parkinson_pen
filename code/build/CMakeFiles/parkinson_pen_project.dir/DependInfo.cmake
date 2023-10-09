@@ -148,7 +148,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/study/parkinson_pen/code/src/atk_ms901m.c" "CMakeFiles/parkinson_pen_project.dir/src/atk_ms901m.c.obj" "gcc" "CMakeFiles/parkinson_pen_project.dir/src/atk_ms901m.c.obj.d"
   "D:/study/parkinson_pen/code/src/inv_mpu.c" "CMakeFiles/parkinson_pen_project.dir/src/inv_mpu.c.obj" "gcc" "CMakeFiles/parkinson_pen_project.dir/src/inv_mpu.c.obj.d"
   "D:/study/parkinson_pen/code/src/inv_mpu_dmp_motion_driver.c" "CMakeFiles/parkinson_pen_project.dir/src/inv_mpu_dmp_motion_driver.c.obj" "gcc" "CMakeFiles/parkinson_pen_project.dir/src/inv_mpu_dmp_motion_driver.c.obj.d"
+  "D:/study/parkinson_pen/code/src/kalman.c" "CMakeFiles/parkinson_pen_project.dir/src/kalman.c.obj" "gcc" "CMakeFiles/parkinson_pen_project.dir/src/kalman.c.obj.d"
   "D:/study/parkinson_pen/code/src/mpu6050_i2c.c" "CMakeFiles/parkinson_pen_project.dir/src/mpu6050_i2c.c.obj" "gcc" "CMakeFiles/parkinson_pen_project.dir/src/mpu6050_i2c.c.obj.d"
+  "D:/study/parkinson_pen/code/src/pid.c" "CMakeFiles/parkinson_pen_project.dir/src/pid.c.obj" "gcc" "CMakeFiles/parkinson_pen_project.dir/src/pid.c.obj.d"
   "D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/parkinson_pen_project.dir/D_/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

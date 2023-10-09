@@ -1557,7 +1557,9 @@ CMakeFiles/parkinson_pen_project.dir/main.c.obj: D:/study/parkinson_pen/code/mai
   generated/pico_base/pico/version.h \
   D:/study/parkinson_pen/code/inc/MyUart.h \
   D:/study/parkinson_pen/code/inc/inv_mpu.h \
+  D:/study/parkinson_pen/code/inc/kalman.h \
   D:/study/parkinson_pen/code/inc/mpu6050_i2c.h \
+  D:/study/parkinson_pen/code/inc/pid.h \
   D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_base/include/pico.h \
   D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_base/include/pico/assert.h \
   D:/study/parkinson_pen/pico_sdk/pico-sdk/src/common/pico_base/include/pico/config.h \
@@ -1924,6 +1926,9 @@ CMakeFiles/parkinson_pen_project.dir/src/inv_mpu_dmp_motion_driver.c.obj: D:/stu
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
 
+CMakeFiles/parkinson_pen_project.dir/src/kalman.c.obj: D:/study/parkinson_pen/code/src/kalman.c \
+  D:/study/parkinson_pen/code/inc/kalman.h
+
 CMakeFiles/parkinson_pen_project.dir/src/mpu6050_i2c.c.obj: D:/study/parkinson_pen/code/src/mpu6050_i2c.c \
   D:/study/parkinson_pen/pico_sdk/pico-sdk/src/boards/include/boards/pico.h \
   D:/study/parkinson_pen/pico_sdk/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
@@ -2008,6 +2013,9 @@ CMakeFiles/parkinson_pen_project.dir/src/mpu6050_i2c.c.obj: D:/study/parkinson_p
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+
+CMakeFiles/parkinson_pen_project.dir/src/pid.c.obj: D:/study/parkinson_pen/code/src/pid.c \
+  D:/study/parkinson_pen/code/inc/pid.h
 
 
 generated/pico_base/pico/version.h:
@@ -2382,7 +2390,11 @@ D:/study/parkinson_pen/code/main.c:
 
 D:/study/parkinson_pen/code/inc/MyUart.h:
 
+D:/study/parkinson_pen/code/inc/kalman.h:
+
 D:/study/parkinson_pen/code/inc/mpu6050_i2c.h:
+
+D:/study/parkinson_pen/code/inc/pid.h:
 
 D:/study/parkinson_pen/code/inc/atk_ms901m.h:
 
@@ -2398,4 +2410,8 @@ D:/study/parkinson_pen/code/inc/inv_mpu_dmp_motion_driver.h:
 
 D:/study/parkinson_pen/code/src/inv_mpu_dmp_motion_driver.c:
 
+D:/study/parkinson_pen/code/src/kalman.c:
+
 D:/study/parkinson_pen/code/src/mpu6050_i2c.c:
+
+D:/study/parkinson_pen/code/src/pid.c:

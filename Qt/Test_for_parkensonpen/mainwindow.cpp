@@ -159,13 +159,24 @@ void MainWindow::on_action_save_triggered()
         std::cout << "unable open the file..." << std::endl;
     }
     int i = 0;
+    QList<QPointF> v[3];
     foreach(QSplineSeries* s, series)
     {
-        QList<QPointF> v = s->points();
-        std::for_each(v.begin(), v.end(), [&](QPointF p){
-            outfile << i << " " << p.x() << " " << p.y() << std::endl;
-        });
+        v[i] = s->points();
+//        std::for_each(v.begin(), v.end(), [&](QPointF p){
+//            outfile << i << " " << p.x() << " " << p.y() << std::endl;
+//        });
         i++;
+    }
+    int len = v[0].count();
+    for(int j = 0; j < len; j++)
+    {
+        for(int k = 0; k < 3; k++)
+            if(k == 0)
+                outfile << v[k][j].x() << " " << v[k][j].y() << " ";
+            else
+                outfile << v[k][j].y() << " ";
+        outfile << std::endl;
     }
     outfile.close();
     std::cout << "savedata..." << std::endl;

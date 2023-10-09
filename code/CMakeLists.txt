@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 17)
 # Initialize the SDK
 pico_sdk_init()
 
-set (SOURCES main.c src/mpu6050_i2c.c src/inv_mpu_dmp_motion_driver.c src/inv_mpu.c src/MyUart.c src/atk_ms901m.c)
+set (SOURCES main.c src/mpu6050_i2c.c src/inv_mpu_dmp_motion_driver.c src/inv_mpu.c src/MyUart.c src/atk_ms901m.c src/kalman.c src/pid.c)
 
 add_executable(${PROJECT_NAME}
         ${SOURCES}

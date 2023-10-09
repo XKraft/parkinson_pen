@@ -1228,6 +1228,30 @@ src/inv_mpu_dmp_motion_driver.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/inv_mpu_dmp_motion_driver.c.s
 .PHONY : src/inv_mpu_dmp_motion_driver.c.s
 
+src/kalman.obj: src/kalman.c.obj
+.PHONY : src/kalman.obj
+
+# target to build an object file
+src/kalman.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/kalman.c.obj
+.PHONY : src/kalman.c.obj
+
+src/kalman.i: src/kalman.c.i
+.PHONY : src/kalman.i
+
+# target to preprocess a source file
+src/kalman.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/kalman.c.i
+.PHONY : src/kalman.c.i
+
+src/kalman.s: src/kalman.c.s
+.PHONY : src/kalman.s
+
+# target to generate assembly for a file
+src/kalman.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/kalman.c.s
+.PHONY : src/kalman.c.s
+
 src/mpu6050_i2c.obj: src/mpu6050_i2c.c.obj
 .PHONY : src/mpu6050_i2c.obj
 
@@ -1251,6 +1275,30 @@ src/mpu6050_i2c.s: src/mpu6050_i2c.c.s
 src/mpu6050_i2c.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/mpu6050_i2c.c.s
 .PHONY : src/mpu6050_i2c.c.s
+
+src/pid.obj: src/pid.c.obj
+.PHONY : src/pid.obj
+
+# target to build an object file
+src/pid.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/pid.c.obj
+.PHONY : src/pid.c.obj
+
+src/pid.i: src/pid.c.i
+.PHONY : src/pid.i
+
+# target to preprocess a source file
+src/pid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/pid.c.i
+.PHONY : src/pid.c.i
+
+src/pid.s: src/pid.c.s
+.PHONY : src/pid.s
+
+# target to generate assembly for a file
+src/pid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\parkinson_pen_project.dir\build.make CMakeFiles/parkinson_pen_project.dir/src/pid.c.s
+.PHONY : src/pid.c.s
 
 # Help Target
 help:
@@ -1396,9 +1444,15 @@ help:
 	@echo ... src/inv_mpu_dmp_motion_driver.obj
 	@echo ... src/inv_mpu_dmp_motion_driver.i
 	@echo ... src/inv_mpu_dmp_motion_driver.s
+	@echo ... src/kalman.obj
+	@echo ... src/kalman.i
+	@echo ... src/kalman.s
 	@echo ... src/mpu6050_i2c.obj
 	@echo ... src/mpu6050_i2c.i
 	@echo ... src/mpu6050_i2c.s
+	@echo ... src/pid.obj
+	@echo ... src/pid.i
+	@echo ... src/pid.s
 .PHONY : help
 
 
